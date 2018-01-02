@@ -1,0 +1,96 @@
+.receiverMessage {
+  margin: 10px;
+  text-align: left;
+}
+
+.currentUserMessage {
+  margin: 10px;
+  text-align: right;
+}
+
+.chat-section {
+  height: 500px;
+  width: 80vw;
+  margin: 50px 100px 50px 0px;
+  overflow: hidden;
+  overflow-y: scroll;
+  box-shadow: 5px 5px #fe5169;
+  background-color: white;
+  margin: 20px auto;
+  font-family: Inconsolata;
+}
+
+.chat-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  float: right;
+}
+
+.chat-message {
+  font-size: 18px;
+  font-family: Inconsolata;
+}
+
+.chat-name {
+  font-size: 20px;
+  float: left;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover, .chat-item {
+  background-color: white;
+  color: black;
+  text-align: left;
+  font-family: 'Hollywood Hills';
+  border: 1px none transparent;
+  font-size: 30px;
+}
+
+.chat-form {
+  width: 300px;
+  margin: 10px auto;
+}
+
+.chat-input {
+  float: left;
+  height: 40px;
+  width: 200px;
+  border: white;
+  box-shadow: 4px 4px #fe5169;
+}
+
+.message-bubble-right {
+  margin: 5px;
+  width: 60%;
+  min-height: 30px;
+  border: 1px solid grey;
+  text-align: left;
+  padding: 5px;
+  border-radius: 5px;;
+  float: right;
+}
+
+.message-bubble-left {
+  margin: 4px;
+  width: 60%;
+  min-height: 30px;
+  border: 1px none grey;
+  text-align: left;
+  padding: 3px;
+  border-radius: 5px;
+  float: left;
+  color: white;
+  background-color: #fe5169;
+  padding: 4px;
+}
+
+.chat-button {
+  float: right;
+  margin: 0;
+  color: white;
+  font-size: 18px;
+}
+
+.list-group-item.active {
+  height: 80px;
+}

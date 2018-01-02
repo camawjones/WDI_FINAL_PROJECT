@@ -1,0 +1,81 @@
+* {
+}
+
+html {
+  background: url('/assets/images/popstars-copy.png') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+body {
+  background: none
+}
+
+.home-title {
+  font-family: 'Hollywood Hills';
+  font-size: 80px;
+  text-align: center;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: #fe5169;
+  text-shadow: 3px 3px #e5d736;
+}
+
+.sub-title {
+  font-family: 'Hollywood Hills';
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+  color: black;
+}
+
+.home-star {
+  width: 320px;
+  height: 320px;
+  margin: 0 auto;
+}
+
+img, .home-star {
+  min-width: 0%
+}
+
+.home-links {
+  width: 80%;
+  margin: 25px auto;
+  font-size: 40px;
+  font-family: Airstream;
+}
+
+.login {
+  color: rgb(254, 81, 105);
+  border-radius: 6px;
+  background-color: white;
+}
+
+.register {
+  color: rgb(254, 81, 105);
+  border-radius: 6px;
+  background-color: white
+}
+
+  // @keyframes jackpots {
+  //   0%,
+  //   100% {
+  //   text-shadow:
+  //   -.1vw 0vw .1vw #e5d736, -.15vw 0vw .2vw #e5d736, -.2vw 0vw .2vw #e5d736,
+  //   -.1vw 0vw 3vw #fe5169, -.2vw 0vw 3vw #fe5169, -.4vw 0vw 3vw #fe5169,
+  //   -.1vw 0vw 5vw #fe5169, -.2vw 0vw 5vw #fe5169, -.4vw 0vw .8vw #fe5169, .2vw 0vw 10vw #fe5169;
+  //     color: #e5d736;
+  //   }
+  //   50% {
+  //   text-shadow:
+  //   -.1vw 0vw .1vw #705C12, -.15vw 0vw .2vw #705C12, -.2vw 0vw .2vw #705C12,
+  //   -.1vw 0vw .1vw #5C0704, -.2vw 0vw .1vw #5C0704, -.4vw 0vw .1vw #5C0704,
+  //   -.1vw 0vw .2vw #5C0704, -.2vw 0vw .2vw #5C0704, -.4vw 0vw .2vw #5C0704, .2vw 0vw .5vw #5C0704;
+  //     color: #705C12;
+  //   }
+  // }

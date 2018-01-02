@@ -1,0 +1,32 @@
+.profile-page {
+  width: 350px;
+  height: 76vh;
+  margin: 40px auto;
+  background-color: white;
+  border-radius: 6px
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  margin: 25px;
+  object-fit: cover;
+}
+
+.profile-card-name {
+  font-family: 'Inconsolata';
+  color: #fe5169;
+  font-size: 20px;
+}
+
+.profile-text {
+  font-family: 'Inconsolata';
+  padding: 0px 35px;
+  margin-top: 30px;
+  a {
+    color: #fe5169;
+    text-decoration: underline;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+}

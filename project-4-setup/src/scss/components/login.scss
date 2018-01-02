@@ -1,0 +1,46 @@
+.login-input {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.form-control {
+  padding: 20px;
+}
+
+.login-title {
+  margin-top: 50px;
+}
+
+.login-form {
+  top: 100px;
+}
+
+button, .btn-primary {
+  border-radius: 3px;
+}
+.no-account {
+  padding: 20px;
+  font-family: 'Hollywood Hills';
+  color: #fe5169
+}
+
+.form-control:focus {
+  border-color: #fe5169;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(254,81,105,.075), 0 0 8px rba(229,215,54,.6);
+  box-shadow: inset 0 1px 1px rgba(254,81,105,.075), 0 0 8px rgba(229,215,54,.6);
+}
+
+button, .btn-primary {
+  background-color: #fe5169;
+  padding: 7px 12px;
+  font-family: 'Hollywood Hills';
+  border: none;
+  margin: 5px;
+}
+
+.btn-primary:hover {
+  background-color: rgb(229,215,54)
+}

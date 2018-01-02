@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141" height="141" viewBox="0 0 141 141">
+  <defs>
+    <circle id="tick-icon-a" cx="70.5" cy="70.5" r="70.5"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#FE5169" xlink:href="#tick-icon-a"/>
+    <circle cx="70.5" cy="70.5" r="68" stroke="#FFF" stroke-width="5"/>
+    <polyline stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" points="30 72.839 55.581 98.273 111.121 45"/>
+  </g>
+</svg>

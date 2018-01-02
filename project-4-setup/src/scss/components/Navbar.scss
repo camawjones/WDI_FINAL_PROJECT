@@ -1,0 +1,106 @@
+.sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    background-color: rgb(254,81,105);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: width 0.5s;
+
+}
+
+.nav-style {
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+}
+
+/* The navigation menu links */
+.sidenav .nav-link {
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: white;
+      z-index: 101;
+    display: block;
+    transition: 0.5s;
+    font-family: 'Hollywood Hills';
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav .nav-link:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+.burger-menu {
+  float: left;
+  margin: 10px 2px 0 0;
+  margin: 8px 0 0 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav .nav-link {font-size: 18px;}
+}
+
+/*burger menu */
+
+.container {
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: rgb(254,81,105);
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+.chat-heart {
+  background: url('/assets/images/chat-heart.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  // background: red;
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin: 4px 6px 0 0;
+  padding: 7px;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
