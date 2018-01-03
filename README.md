@@ -16,8 +16,7 @@ For my final project I wanted to create an app that would be remembered and inst
 
 Below are my wireframes and userflows that I designed using Sketch. I wanted to make sure I understood exactly how the user would use the app right from the beginning of the project so that there couldn't be any major hickups later down the line.:
 
-![](/Users/cameronjones/Documents/General Assembly/wdi final project/wdi_final_project_wireframe.pdf)
-
+<img src="http://i.imgur.com/bfwgqTbg.png" class="post-image-placeholder"/>
 
 
 ##### Packages:
