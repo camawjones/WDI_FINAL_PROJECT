@@ -1,22 +1,4 @@
-# WDI Project 4: MERN Stack
 
-## Deployment
-
-When deploying the app for the first time ensure you have run the following steps in order:
-
-1. `heroku create`
-1. `heroku addons:create mongolab`
-1. `heroku config:set NPM_CONFIG_PRODUCTION=false`
-1. `git push heroku master`
-1. `heroku open`
-
-After that simply `git commit` and `git push heroku master`.
-
-## Important
-
-Ensure that you add any relevant environment variables to heroku with `heroku config:set`, eg:
-
-`heroku config:set AWS_BUCKET_NAME=wdi-project-4`
 
 ![image](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
@@ -32,6 +14,12 @@ Within the app, users receive other potential dates to swipe through in a ‘tin
 
 For my final project I wanted to create an app that would be remembered and instantly recognised. Using photoshop to edit or design the assets myself I aimed to play to the faux celebrity and Hollywood glam style of Lookalikes themselves which I think I successfully achieved.
 
+Below are my wireframes and userflows that I designed using Sketch. I wanted to make sure I understood exactly how the user would use the app right from the beginning of the project so that there couldn't be any major hickups later down the line.:
+
+![](/Users/cameronjones/Documents/General Assembly/wdi final project/wdi_final_project_wireframe.pdf)
+
+
+
 ##### Packages:
  - mongoose-friends (react)
  - react-swipe-card (react)
@@ -41,20 +29,25 @@ For my final project I wanted to create an app that would be remembered and inst
  - bluebird
  - bootstrap-css-only
 
+
 Once two lookalikes swipe right on each they both recieve a notification informing them that they have matched ('looks like this lookalike likes the look of you').
 
 <img alt="" src="http://i.imgur.com/c767XAY.png" width="300px"/>
-
-Once this has been recieved by the user, the other recipient of the notification is added to their list of matches and both now have the ability to message each other.
+ 
+Once this has been recieved by the user, the other recipient of the notification is added to their list of matches and both now have the ability to message each other. 
 
 <img src="http://i.imgur.com/PLqAvVa.png" width="300px"/>
 
 After either the current user sends a message or recieves a message, a chat is then added to their account.
 
-The project was 10 days long and was extremely enjoyable for me to work on.
+The project was 10 days long and was extremely enjoyable for me to work on. 
 
 Some extra features that I wish to add are:
 
 - Implementing google Maps API in order to filter users by current location.
 - Make app fully responsive.
 - Seed more data.
+
+
+
+
