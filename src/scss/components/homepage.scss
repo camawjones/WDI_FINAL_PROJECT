@@ -33,7 +33,7 @@ body {
 
 .home-title {
   font-family: 'Hollywood Hills';
-  font-size: 60px;
+  font-size: 80px;
   text-align: center;
   margin-top: 45px;
   margin-left: auto;
@@ -52,8 +52,8 @@ body {
 }
 
 .home-star {
-  width: 270px;
-  height: 270px;
+  width: 320px;
+  height: 320px;
   margin: 0 auto;
 }
 
@@ -62,24 +62,24 @@ img, .home-star {
 }
 
 .home-links {
-  width: 60%;
+  width: 80%;
   margin: 25px auto;
-  font-size: 25px;
-  line-height: 40px;
-  font-family: 'Hollywood Hills';
+  font-size: 35px;
+  line-height: 50px;
+  font-family: Airstream;
 }
 
 .login {
   color: rgb(254, 81, 105);
   border-radius: 6px;
-  height: 40px;
+  height: 50px;
   background-color: white;
 }
 
 .register {
   color: rgb(254, 81, 105);
   border-radius: 6px;
-  height: 40px;
+  height: 50px;
   background-color: white
 }
 
