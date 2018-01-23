@@ -6,7 +6,7 @@ class Homepage extends React.Component {
   render() {
     return(
       <div>
-        <div>
+        <div className="resp-home">
           <div className="home-title">
             <p>Lookalove</p>
           </div>
@@ -22,6 +22,7 @@ class Homepage extends React.Component {
             </Link>
           </div>
         </div>
+        <img className="mobile-screenshot" src="/assets/images/lookalovescreen.png"/>
       </div>
     );
   }

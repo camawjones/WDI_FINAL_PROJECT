@@ -39,6 +39,7 @@ class UsersIndex extends React.Component {
 
   }
 
+
   createChat = (e) => {
     e.preventDefault();
     console.log(this.state.users);
@@ -56,6 +57,7 @@ class UsersIndex extends React.Component {
     // make an axios request to friend this user
     // POST /api/users/${id}/friends
     console.log('you swiped right');
+    console.log({id});
     const users = this.state.users.filter(user => user.id !== id);
     this.setState({ users });
 
@@ -101,6 +103,8 @@ class UsersIndex extends React.Component {
     });
 
 
+
+
     return (
       <div>
         <div>
@@ -133,11 +137,6 @@ class UsersIndex extends React.Component {
               );
             })}
           </Cards>}
-          {!this.state.status &&
-             <object className="liked" type="image/svg+xml" data="/assets/images/tick-icon.svg">Your browser does not support SVGs</object> }
-          {!this.state.status &&
-          <object className="noliked" type="image/svg+xml" data="/assets/images/cross-icon.svg">Your browser does not support SVGs</object>
-          }
         </div>
 
       </div>

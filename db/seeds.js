@@ -202,7 +202,56 @@ mongoose.connect(dbURI, { useMongoClient: true })
         password: 'password',
         passwordConfirmation: 'password',
         image: 'https://i.pinimg.com/originals/36/bb/cb/36bbcb36ab69e185c9b7416445ce2048.jpg'
-      }]);
+      },{
+        firstName: 'Simon',
+        lastName: 'Fill',
+        email: 'trap@toosies.com',
+        username: 'cruisecontrol',
+        lookalike: 'Tom Cruise',
+        bio: 'Finding love feels like mission impossible!',
+        sex: 'male',
+        interestedIn: 'women',
+        password: 'password',
+        passwordConfirmation: 'password',
+        image: 'http://peoplesayilooklike.com/wp-content/uploads/2013/09/960x540-tomcruise.jpg'
+      },{
+        firstName: 'Taytay',
+        lastName: 'Yull',
+        email: 'tay@tay.com',
+        username: 'blank_',
+        lookalike: 'Taylor Swift',
+        bio: 'Real essex girl. big fan of red leicester cheese',
+        sex: 'female',
+        interestedIn: 'men',
+        password: 'password',
+        passwordConfirmation: 'password',
+        image: 'http://peoplesayilooklike.com/wp-content/uploads/2013/05/image30-5.jpg'
+      },{
+        firstName: 'Tracy',
+        lastName: 'Bihj',
+        email: 'tracy@tracy.com',
+        username: 'perrytray',
+        lookalike: 'Katy Perry',
+        bio: 'I like the bad boys!',
+        sex: 'female',
+        interestedIn: 'men',
+        password: 'password',
+        passwordConfirmation: 'password',
+        image: 'http://peoplesayilooklike.com/wp-content/uploads/2013/09/get-attachment-5.jpeg'
+      },{
+        firstName: 'Abi',
+        lastName: 'Sumo',
+        email: 'abi@abi.com',
+        username: 'pennycruzo',
+        lookalike: 'Penelope Cruz',
+        bio: 'Big lover of all things orange. Apart from satsumas. I hate satsumas lol',
+        sex: 'female',
+        interestedIn: 'men',
+        password: 'password',
+        passwordConfirmation: 'password',
+        image: 'http://peoplesayilooklike.com/wp-content/uploads/2015/01/image72-1.jpg'
+      }
+    ]);
   })
   .then(users => {
     console.log(`${users.length} users created!`);

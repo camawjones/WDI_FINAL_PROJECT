@@ -31,7 +31,7 @@ class ChatsIndex extends React.Component {
               <div className="d-flex w-100 justify-content-between">
                 <h4 className="chat-message"><strong>Chat: </strong><i>{chat.users[0].username}</i></h4>
                 <div className="chat-message">
-                  <p><strong>Last Message: </strong><i>{chat.messages.length -1 > 0 && chat.messages[chat.messages.length -1].content}</i></p>
+                  <p className="lastmessage"><strong>Last Message: </strong><i>{chat.messages.length -1 > 0 && chat.messages[chat.messages.length -1].content}</i></p>
                 </div>
               </div>
             </Link>

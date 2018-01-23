@@ -20,6 +20,13 @@
   font-family: Inconsolata;
 }
 
+.lastmessage {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 250px;
+}
+
 .chat-image {
   width: 60px;
   height: 60px;

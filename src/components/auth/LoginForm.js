@@ -12,7 +12,7 @@ const LoginForm = ({
         placeholder="Email"
         onChange={handleChange}
         value={user.email}
-        className="form-control login"/>
+        className="form-control"/>
       </div>
       <div className="form-group login-input">
         <input

@@ -44,3 +44,88 @@ button, .btn-primary {
 .btn-primary:hover {
   background-color: rgb(229,215,54)
 }
+
+a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (min-device-width : 1024px) {
+.form-control {
+  width: 50%;
+  margin: 0 auto;
+}
+
+body {
+  align-items: center;
+}
+
+.login, .register {
+  width: 40%;
+  margin: 10px auto;
+}
+
+}
+
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+
+}
+@media only screen and (min-device-width : 768px) {
+  .login, .register {
+    width: 70%;
+    margin: 10px auto;
+  }
+
+  .resp-home {
+    float: left;
+    width: 40%;
+  }
+
+  .mobile-screenshot {
+    visibility: visible;
+    float: right;
+    width: 500px;
+    height: 460px;
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+  }
+
+
+}
+
+@media only screen and (max-device-width : 768px) {
+
+.resp-home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  float: none;
+}
+
+.mobile-screenshot {
+  display: none;
+}
+
+.login, .register {
+  width: 80%;
+  margin: 10px auto;
+}
+
+}
+
+@media all and (max-width: 599px) {
+.resp-home {
+  width: 100%
+}
+
+.login, .register {
+  width: 100%;
+  margin: 10px auto;
+}
+
+}
