@@ -94,7 +94,7 @@ class ChatsShow extends React.Component {
             onChange={this.handleChange}
             value={this.state.message}
           />
-          <button className="chat-button">Send</button>
+          <button className="chat-button">Send.</button>
 
         </form>
       </section>
