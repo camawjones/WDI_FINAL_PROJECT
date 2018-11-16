@@ -10,7 +10,7 @@ Lookalove (Where The Stars Align) is a full MERN stack mobile-first site with a 
 
 Within the app, users receive other potential dates to swipe through in a ‘tinder’ style, receiving a match when both the current user and the swiped user swipe right on each other. It utilises a matching logic built using the mongoose-friends package and swipe functionality which was enabled through the react-swipe-card react.js package.   
 
-#####[Visit Website Here](http://shoeselector.herokuapp.com/) For best viewing experience, please access on a mobile.
+#####[Visit Website Here](https://serene-anchorage-28490.herokuapp.com/?fbclid=IwAR1D77r-R_JJtcXA-uV_7wJJmQrSm2q3J8GjiExOTdHzEg3Guacgo7km1w0) For best viewing experience, please access on a mobile.
 
 For my final project I wanted to create an app that would be remembered and instantly recognised. Using photoshop to edit or design the assets myself I aimed to play to the faux celebrity and Hollywood glam style of Lookalikes themselves which I think I successfully achieved.
 
