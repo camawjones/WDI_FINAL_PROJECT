@@ -21,7 +21,7 @@
     "bootstrap-css-only": "^3.3.7",
     "express": "^4.15.4",
     "hamburgers": "^0.9.1",
-    "jsonwebtoken": "^8.1.0",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.4",
     "mongoose": "^4.11.12",
     "mongoose-fill": "^1.7.0",
